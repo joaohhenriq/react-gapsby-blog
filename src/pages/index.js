@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'gatsby'
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 
 const Home = () => (
   <Layout>
-    <h1>João Henrique</h1>
+    <SEO pageTitle='Blog' />
     <h2>Full Stack Developer</h2>
     <section>
       <h4>Hello, I'm João Henrique</h4>
@@ -15,9 +17,9 @@ const Home = () => (
       <p>
         Check my projects
         {' '}
-        <a href='/projects'>
+        <Link to='/projects'>
           here
-        </a>
+        </Link>
         !
       </p>
     </section>
