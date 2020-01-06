@@ -4,7 +4,7 @@ import SEO from '../components/SEO';
 
 export default props => (
     <Layout>
-        <SEO pageTitle='Projects' />
+        <SEO pageTitle='Blog' description='Blog using React and Gatsby' keywords='React, JS, Gatsby' />
         <h1>Projects</h1>
         <hr />
         <p>

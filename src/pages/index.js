@@ -6,7 +6,7 @@ import SEO from '../components/SEO';
 
 const Home = () => (
   <Layout>
-    <SEO pageTitle='Blog' />
+    <SEO pageTitle='Blog' description='Blog using React and Gatsby' keywords='React, JS, Gatsby' />
     <h2>Full Stack Developer</h2>
     <section>
       <h4>Hello, I'm João Henrique</h4>
