@@ -7,9 +7,10 @@ import SEO from '../components/SEO';
 const Home = () => (
   <Layout>
     <SEO pageTitle='Blog' description='Blog using React and Gatsby' keywords='React, JS, Gatsby' />
-    <h2>Full Stack Developer</h2>
-    <section>
-      <h4>Hello, I'm João Henrique</h4>
+    <h1 className='title has-text-centered'>João Henrique Camargo</h1>
+    <h2 className='subtitle has-text-centered'>Full Stack Developer</h2>
+    <section className='section content is-size-5-desktop is-size-6-touch'>
+      <h4 className='title'>Hello, I'm João Henrique</h4>
       <p>
         I'm a full stack developer, completely in love with Flutter. But recently I've focused
         all my avaliable time studying React and Node JS.
